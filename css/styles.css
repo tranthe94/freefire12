@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+@font-face {
+  font-family: 'UTMFacebookK-T';
+  src: url('fonts/UTMFacebookK-T.eot?#iefix') format('embedded-opentype'),  url('fonts/UTMFacebookK-T.woff') format('woff'), url('fonts/UTMFacebookK-T.ttf')  format('truetype'), url('fonts/UTMFacebookK-T.svg#UTMFacebookK&T') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'UTMFacebookK-T';
+  margin:0px;
+  font-size: 1.5vw;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/bg.jpg');
+  background-size: 100% 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  color: #000;
+}
+#logo{
+  position: absolute;
+  width: 12.9%;
+  top: 0px;
+  left: 0px;
+}
+#login{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  color: #fff;
+}
+#login a{
+  color: #fff;
+  text-decoration: none;
+}
+.main-content{
+  position: absolute;
+  width: 59.9%;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.text-change span{
+  font-size: 2.9vw;
+  background-image: url('../images/bg-anh-chang.png');
+  background-size: 100% 100%;
+  padding: 1% 3%;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1%;
+}
+.btn-click{
+  display: inline-block;
+  font-size: 2.5vw;
+  background-size: 100% 100%;
+  padding: 1% 5% 2%;
+  margin: 0px 1%;
+}
+.btn-click a{
+  display: block;
+}
+.btn-buy{
+  background-image: url('../images/bg-vang.png');
+}
+.bnt-free a,.bnt-share a{
+  color: #fff;
+}
+.bnt-free,.bnt-share{
+  background-image: url('../images/bg-cam.png');
+}
+.main-img{
+  width: 43.75%;
+  height: 90.8%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  text-align: center;
+}
+.main-img img{
+  height: 100%;
+}
+/* Page share css */
+.page-share .main-container{
+  width: 37.5%;
+  position: absolute;
+  height: 88%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2%;
+  text-align: center;
+}
+.page-share .main-container .img-change{
+  height: 59%;
+}
+.page-share .main-container .img-share{
+  height: 26.3%;
+}
+@media (max-width: 540px){
+  body{
+    height: 56.25vw;
+  }
+}
